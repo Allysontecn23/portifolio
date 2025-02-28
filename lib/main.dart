@@ -27,7 +27,7 @@ class PortfolioPage extends StatelessWidget {
     var deviceHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromRGBO(13, 15, 90, 1),
+        backgroundColor: const Color.fromARGB(255, 10, 12, 70),
         title: const Text('Allyson Torres', 
         style: TextStyle(
           color: Colors.white
